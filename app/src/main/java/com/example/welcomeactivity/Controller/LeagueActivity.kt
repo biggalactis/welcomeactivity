@@ -1,10 +1,11 @@
-package com.example.welcomeactivity
+package com.example.welcomeactivity.Controller
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.welcomeactivity.Utilities.EXTRA_LEAGUE
+import com.example.welcomeactivity.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
