@@ -25,7 +25,7 @@ class SkillActivity : BaseActivity() {
     }
 
     fun onBeginnerClicked(view: View) {
-        beginnerSkillBtn.isChecked = false
+        ballerSkillBtn.isChecked = false
         player.skill = "beginner"
     }
 

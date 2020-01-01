@@ -5,8 +5,8 @@ import android.os.Parcelable
 
 class Player constructor(var league: String, var skill: String) : Parcelable {
     constructor(parcel: Parcel) : this(
-        parcel.readString(),
-        parcel.readString()
+        parcel.readString()!!,
+        parcel.readString()!!
     ) {
     }
 
